@@ -38,7 +38,6 @@ clinica-vitare/
 - HTML5 semântico
 - CSS3 (Grid, Flexbox, variáveis CSS, responsivo)
 - Google Fonts (Fraunces, Inter, IBM Plex Mono)
-- Sem dependências externas de build — nenhuma instalação necessária
 
 ## ⚠️ Observação
 
