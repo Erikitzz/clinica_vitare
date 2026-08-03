@@ -101,34 +101,53 @@ p{ margin:0 0 1em; }
 .hero-lede{ max-width:46ch; color:var(--green-dark); opacity:.85; }
 .hero-actions{ display:flex; gap:14px; margin-top:8px; flex-wrap:wrap; }
 
-.record-card{
+.avail-card{
   background:var(--card);
   border:1px solid var(--line);
   border-radius:var(--radius);
-  padding:28px 26px;
+  padding:26px 26px 24px;
   box-shadow: 6px 6px 0 var(--gold), 0 20px 40px -20px rgba(31,58,52,.35);
   position:relative;
 }
-.record-card-top{
+.avail-top{
   display:flex; justify-content:space-between; align-items:baseline;
   font-family:var(--font-mono); font-size:.75rem; letter-spacing:.08em;
   color:var(--green); text-transform:uppercase;
-  border-bottom:1px dashed var(--line); padding-bottom:14px; margin-bottom:16px;
+  border-bottom:1px dashed var(--line); padding-bottom:14px; margin-bottom:10px;
 }
-.record-number{ color:var(--ink); font-size:1rem; }
-.record-line{
-  display:flex; align-items:center; gap:10px;
-  font-family:var(--font-mono); font-size:.85rem;
-  color:var(--green-dark); opacity:.8;
+.avail-week{ color:var(--ink); text-transform:none; letter-spacing:0; font-size:.8rem; opacity:.7; }
+.avail-pulse{
+  width:100%; height:34px;
+  color:var(--gold);
   margin-bottom:14px;
+  display:block;
 }
-.record-line .dots{
-  flex:1; border-bottom:1px dotted var(--line); height:1px; margin-top:6px;
+.avail-list{ list-style:none; margin:0 0 18px; padding:0; }
+.avail-list li{
+  display:flex; align-items:center; gap:10px;
+  font-family:var(--font-mono); font-size:.82rem;
+  color:var(--green-dark);
+  padding:8px 0;
+  border-bottom:1px dotted var(--line);
 }
-.record-stamp{
-  color:var(--gold); opacity:.9;
-  display:flex; justify-content:flex-end; margin-top:10px;
+.avail-list li:last-child{ border-bottom:none; }
+.avail-day{ width:2.4em; opacity:.75; }
+.avail-time{ font-weight:600; }
+.avail-dot{
+  width:8px; height:8px; border-radius:50%; margin-left:auto;
+  flex-shrink:0;
 }
+.avail-dot.is-open{ background:var(--green); }
+.avail-dot.is-busy{ background:var(--gold); opacity:.6; }
+.avail-status{ width:4.4em; opacity:.65; text-transform:lowercase; }
+.avail-cta{
+  display:block; text-align:center;
+  font-weight:600; font-size:.9rem;
+  color:var(--green-dark);
+  text-decoration:none;
+  padding-top:4px;
+}
+.avail-cta:hover{ color:var(--gold); }
 
 /* ===== About ===== */
 .about{ padding:70px 0; }

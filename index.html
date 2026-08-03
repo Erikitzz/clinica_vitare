@@ -37,7 +37,7 @@
 
 <main id="topo">
 
-  <!-- ============ HERO — "FICHA DE BOAS-VINDAS" ============ -->
+  <!-- ============ HERO — PAINEL DE DISPONIBILIDADE ============ -->
   <section class="hero">
     <div class="wrap hero-inner">
       <div class="hero-copy">
@@ -53,23 +53,47 @@
         </div>
       </div>
 
-      <!-- cartão-ficha, elemento assinatura -->
-      <div class="record-card" aria-hidden="true">
-        <div class="record-card-top">
-          <span class="record-label">Ficha nº</span>
-          <span class="record-number">0231</span>
+      <!-- painel de disponibilidade, elemento assinatura -->
+      <div class="avail-card" aria-hidden="true">
+        <div class="avail-top">
+          <span class="avail-label">Disponibilidade</span>
+          <span class="avail-week">Esta semana</span>
         </div>
-        <div class="record-line"><span>Paciente</span><span class="dots"></span></div>
-        <div class="record-line"><span>Especialidade</span><span class="dots"></span></div>
-        <div class="record-line"><span>Retorno</span><span class="dots"></span></div>
-        <div class="record-stamp">
-          <svg viewBox="0 0 100 100" width="72" height="72">
-            <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="2"/>
-            <circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1"/>
-            <text x="50" y="46" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="currentColor">CLÍNICA</text>
-            <text x="50" y="58" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="currentColor">VITARE</text>
-          </svg>
-        </div>
+
+        <svg class="avail-pulse" viewBox="0 0 280 40" preserveAspectRatio="none">
+          <path d="M0 22 H70 L84 22 L94 6 L106 36 L116 22 L130 22 H280"
+                fill="none" stroke="currentColor" stroke-width="2.4"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+
+        <ul class="avail-list">
+          <li>
+            <span class="avail-day">Seg</span>
+            <span class="avail-time">09:40</span>
+            <span class="avail-dot is-open"></span>
+            <span class="avail-status">livre</span>
+          </li>
+          <li>
+            <span class="avail-day">Ter</span>
+            <span class="avail-time">14:15</span>
+            <span class="avail-dot is-busy"></span>
+            <span class="avail-status">ocupado</span>
+          </li>
+          <li>
+            <span class="avail-day">Qui</span>
+            <span class="avail-time">11:00</span>
+            <span class="avail-dot is-open"></span>
+            <span class="avail-status">livre</span>
+          </li>
+          <li>
+            <span class="avail-day">Sex</span>
+            <span class="avail-time">16:30</span>
+            <span class="avail-dot is-open"></span>
+            <span class="avail-status">livre</span>
+          </li>
+        </ul>
+
+        <a href="#contato" class="avail-cta">Reservar um horário →</a>
       </div>
     </div>
   </section>
@@ -157,9 +181,12 @@
           <div class="service-art" style="background:#EFE8DA">
             <svg viewBox="0 0 200 140" width="100%" height="100%">
               <rect width="200" height="140" fill="#EFE8DA"/>
-              <path d="M100 34c-22 0-38 16-38 36 0 22 18 36 38 36s38-14 38-36c0-20-16-36-38-36z" fill="none" stroke="#45695C" stroke-width="3"/>
-              <path d="M100 34c0 20-8 36 0 72" stroke="#C9A227" stroke-width="3"/>
-              <path d="M78 60c8-6 14-6 22 0M100 60c8-6 14-6 22 0" stroke="#45695C" stroke-width="2.5" fill="none"/>
+              <!-- maçã com folha: nutrição -->
+              <path d="M100 55c-16-14-38-6-40 14-2 20 14 40 40 40s42-20 40-40c-2-20-24-28-40-14z"
+                    fill="none" stroke="#45695C" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M100 55v-8" stroke="#45695C" stroke-width="3" stroke-linecap="round"/>
+              <path d="M100 47c4-10 14-14 22-12-2 10-12 16-22 12z" fill="#C9A227" stroke="#C9A227"/>
+              <path d="M84 78c4 6 12 9 20 8" fill="none" stroke="#C9A227" stroke-width="2.4" stroke-linecap="round"/>
             </svg>
           </div>
           <h3>Aconselhamento nutricional</h3>
@@ -171,10 +198,10 @@
           <div class="service-art" style="background:#EFE8DA">
             <svg viewBox="0 0 200 140" width="100%" height="100%">
               <rect width="200" height="140" fill="#EFE8DA"/>
-              <rect x="66" y="40" width="68" height="52" rx="6" fill="none" stroke="#45695C" stroke-width="3"/>
-              <path d="M78 52h22M78 64h30M78 76h18" stroke="#C9A227" stroke-width="3" stroke-linecap="round"/>
-              <circle cx="122" cy="98" r="12" fill="none" stroke="#45695C" stroke-width="3"/>
-              <path d="M122 92v12l8 6" stroke="#45695C" stroke-width="2.5" stroke-linecap="round"/>
+              <!-- escudo com cruz: cuidados gerais / procedimentos -->
+              <path d="M100 28l32 12v26c0 24-14 38-32 46-18-8-32-22-32-46V40z"
+                    fill="none" stroke="#45695C" stroke-width="3" stroke-linejoin="round"/>
+              <path d="M100 58v28M86 72h28" stroke="#C9A227" stroke-width="3.4" stroke-linecap="round"/>
             </svg>
           </div>
           <h3>Outros procedimentos de cuidado</h3>
@@ -282,10 +309,10 @@
 
         <h3>Endereço</h3>
         <p class="address">
-          Av. Paulista, 1000 — Bela Vista<br>
-          São Paulo — SP, 01310-100
+          SGAS 615, Conjunto A, Lote 30 — Asa Sul<br>
+          Brasília — DF, 70200-730
         </p>
-        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Avenida+Paulista+1000+S%C3%A3o+Paulo" target="_blank" rel="noopener">
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=SGAS+615+Conjunto+A+Asa+Sul+Bras%C3%ADlia+DF" target="_blank" rel="noopener">
           Abrir no Google Maps
         </a>
       </div>
@@ -293,7 +320,7 @@
       <div class="location-map">
         <iframe
           title="Mapa com a localização da Clínica Vitare"
-          src="https://www.google.com/maps?q=Avenida+Paulista+1000+S%C3%A3o+Paulo&output=embed"
+          src="https://www.google.com/maps?q=SGAS+615+Conjunto+A+Asa+Sul+Bras%C3%ADlia+DF&output=embed"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
@@ -359,19 +386,32 @@
         <div class="field-row">
           <div class="field">
             <label for="cidade">Cidade</label>
-            <input type="text" id="cidade" name="cidade" placeholder="Sua cidade" required>
+            <select id="cidade" name="cidade" required>
+              <option value="" disabled selected>Selecione sua cidade</option>
+              <option>Plano Piloto (Brasília)</option>
+              <option>Águas Claras</option>
+              <option>Taguatinga</option>
+              <option>Ceilândia</option>
+              <option>Samambaia</option>
+              <option>Guará</option>
+              <option>Gama</option>
+              <option>Sobradinho</option>
+              <option>Planaltina</option>
+              <option>Santa Maria</option>
+              <option>Recanto das Emas</option>
+              <option>Riacho Fundo</option>
+              <option>Núcleo Bandeirante</option>
+              <option>Lago Sul</option>
+              <option>Lago Norte</option>
+              <option>Vicente Pires</option>
+              <option>Jardim Botânico</option>
+              <option>São Sebastião</option>
+            </select>
           </div>
           <div class="field">
             <label for="estado">Estado</label>
             <select id="estado" name="estado" required>
-              <option value="" disabled selected>UF</option>
-              <option>AC</option><option>AL</option><option>AP</option><option>AM</option>
-              <option>BA</option><option>CE</option><option>DF</option><option>ES</option>
-              <option>GO</option><option>MA</option><option>MT</option><option>MS</option>
-              <option>MG</option><option>PA</option><option>PB</option><option>PR</option>
-              <option>PE</option><option>PI</option><option>RJ</option><option>RN</option>
-              <option>RS</option><option>RO</option><option>RR</option><option>SC</option>
-              <option>SP</option><option>SE</option><option>TO</option>
+              <option value="DF" selected>DF — Distrito Federal</option>
             </select>
           </div>
         </div>

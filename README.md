@@ -21,8 +21,15 @@ Projeto 01 (Landing Page Estática).
 
 - **Sobre nós** (`#sobre`) — história fictícia da clínica e estatísticas de atuação
 - **Depoimentos** (`#depoimentos`) — 3 depoimentos de pacientes fictícios, com foto
-- **Horários & Localização** (`#localizacao`) — horário de funcionamento, endereço e mapa incorporado (Google Maps embed)
+- **Horários & Localização** (`#localizacao`) — horário de funcionamento, endereço em Brasília/DF e mapa incorporado (Google Maps embed)
 - **Dúvidas frequentes** (`#faq`) — 5 perguntas em formato acordeão (`<details>/<summary>`, sem JavaScript)
+
+## 📝 Notas de atualização
+
+- O elemento visual do hero foi trocado de uma "ficha de paciente" para um **painel de disponibilidade de horários** (`.avail-card`)
+- Os ícones de "Aconselhamento nutricional" (maçã) e "Outros procedimentos" (escudo com cruz) foram redesenhados
+- O endereço e o mapa da seção de localização apontam para **Brasília — DF** (SGAS 615, Asa Sul)
+- O campo **Cidade** do formulário agora é uma lista de seleção com regiões administrativas do **Distrito Federal**, e o campo **Estado** está fixo em "DF"
 
 ## 🗂️ Estrutura do projeto
 
