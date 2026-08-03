@@ -25,8 +25,11 @@
       Clínica Vitare
     </a>
     <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
       <a href="#equipe">Equipe</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#faq">Dúvidas</a>
       <a href="#contato">Agendar</a>
     </nav>
   </div>
@@ -66,6 +69,47 @@
             <text x="50" y="46" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="currentColor">CLÍNICA</text>
             <text x="50" y="58" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="currentColor">VITARE</text>
           </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE NÓS ============ -->
+  <section id="sobre" class="about">
+    <div class="wrap about-inner">
+      <div class="about-copy">
+        <p class="eyebrow">Nossa história</p>
+        <h2>Cuidado que começou em um consultório e virou clínica de bairro</h2>
+        <p>
+          A Vitare nasceu em 2011, quando a Dra. Marina Souza abriu um pequeno
+          consultório de clínica geral com um princípio simples: nenhum paciente
+          deveria repetir sua história a cada visita. Com o tempo, a equipe cresceu,
+          os serviços se ampliaram — exames, nutrição, procedimentos — mas o
+          prontuário continuou único, e o atendimento continuou próximo.
+        </p>
+        <p>
+          Hoje somos uma equipe multidisciplinar que acompanha cada paciente de
+          forma contínua, com horários flexíveis e comunicação direta entre
+          médicos, nutricionistas e enfermagem.
+        </p>
+      </div>
+
+      <div class="about-stats" role="list">
+        <div class="stat" role="listitem">
+          <span class="stat-number">13</span>
+          <span class="stat-label">anos de atuação</span>
+        </div>
+        <div class="stat" role="listitem">
+          <span class="stat-number">8.400+</span>
+          <span class="stat-label">pacientes atendidos</span>
+        </div>
+        <div class="stat" role="listitem">
+          <span class="stat-number">4</span>
+          <span class="stat-label">áreas de cuidado</span>
+        </div>
+        <div class="stat" role="listitem">
+          <span class="stat-number">4,9/5</span>
+          <span class="stat-label">avaliação média</span>
         </div>
       </div>
     </div>
@@ -172,6 +216,123 @@
           <h3>João Pedro Lima</h3>
           <p class="role">Enfermagem — Coordenação</p>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section id="depoimentos" class="testimonials">
+    <div class="wrap">
+      <p class="eyebrow">Quem já passou por aqui</p>
+      <h2>Depoimentos de pacientes</h2>
+
+      <div class="testimonial-grid">
+        <figure class="testimonial-card">
+          <blockquote>“Consegui consulta e exame na mesma semana, e o médico já
+            tinha visto meu histórico completo antes de eu entrar na sala.”</blockquote>
+          <figcaption>
+            <img src="https://i.pravatar.cc/120?img=5" alt="" aria-hidden="true">
+            <div>
+              <span class="t-name">Helena Ribeiro</span>
+              <span class="t-role">Paciente desde 2019</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <blockquote>“O acompanhamento nutricional mudou minha rotina. Sinto que
+            todo mundo na clínica fala a mesma língua sobre o meu caso.”</blockquote>
+          <figcaption>
+            <img src="https://i.pravatar.cc/120?img=15" alt="" aria-hidden="true">
+            <div>
+              <span class="t-name">Otávio Martins</span>
+              <span class="t-role">Paciente desde 2022</span>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="testimonial-card">
+          <blockquote>“Marquei retorno pelo telefone e a recepção já sabia
+            exatamente qual exame eu precisava repetir. Isso poupa muito tempo.”</blockquote>
+          <figcaption>
+            <img src="https://i.pravatar.cc/120?img=25" alt="" aria-hidden="true">
+            <div>
+              <span class="t-name">Beatriz Nogueira</span>
+              <span class="t-role">Paciente desde 2016</span>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HORÁRIOS E LOCALIZAÇÃO ============ -->
+  <section id="localizacao" class="location">
+    <div class="wrap location-inner">
+      <div class="location-info">
+        <p class="eyebrow">Horários & endereço</p>
+        <h2>Onde e quando estamos</h2>
+
+        <h3>Horário de funcionamento</h3>
+        <ul class="hours-list">
+          <li><span>Segunda a sexta</span><span class="dots"></span><span>7h às 19h</span></li>
+          <li><span>Sábado</span><span class="dots"></span><span>8h às 13h</span></li>
+          <li><span>Domingo e feriados</span><span class="dots"></span><span>Fechado</span></li>
+        </ul>
+
+        <h3>Endereço</h3>
+        <p class="address">
+          Av. Paulista, 1000 — Bela Vista<br>
+          São Paulo — SP, 01310-100
+        </p>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Avenida+Paulista+1000+S%C3%A3o+Paulo" target="_blank" rel="noopener">
+          Abrir no Google Maps
+        </a>
+      </div>
+
+      <div class="location-map">
+        <iframe
+          title="Mapa com a localização da Clínica Vitare"
+          src="https://www.google.com/maps?q=Avenida+Paulista+1000+S%C3%A3o+Paulo&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <p class="eyebrow">Dúvidas frequentes</p>
+      <h2>Perguntas que recebemos com frequência</h2>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>Preciso de encaminhamento para marcar uma consulta?</summary>
+          <p>Não. Você pode agendar diretamente com clínica geral ou com qualquer
+            especialista disponível, sem necessidade de encaminhamento prévio.</p>
+        </details>
+        <details class="faq-item">
+          <summary>A clínica atende convênios ou apenas particular?</summary>
+          <p>Trabalhamos com atendimento particular e com os principais convênios da
+            região. Confirme a cobertura do seu plano ao agendar.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso fazer exame e consulta no mesmo dia?</summary>
+          <p>Sim, sempre que a agenda permitir. Ao marcar, informe a recepção que
+            deseja unificar consulta e exame na mesma visita.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Como funciona o acompanhamento nutricional?</summary>
+          <p>É feito por consultas periódicas com nutricionista, com plano alimentar
+            individual revisado a cada retorno, integrado ao seu prontuário.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Como cancelo ou remarco um horário?</summary>
+          <p>Basta entrar em contato com a recepção com pelo menos 24h de
+            antecedência, pelo telefone ou pelo formulário desta página.</p>
+        </details>
       </div>
     </div>
   </section>

@@ -17,6 +17,13 @@ Projeto 01 (Landing Page Estática).
 | Pelo menos 2 níveis de cabeçalho | `<h1>` no hero, `<h2>` nas seções, `<h3>` nos cards |
 | Formulário estático (Nome, E-mail, Cidade, Estado) | Seção `#contato` — `action="#"`, sem processamento |
 
+## ✨ Seções extras (além do mínimo exigido)
+
+- **Sobre nós** (`#sobre`) — história fictícia da clínica e estatísticas de atuação
+- **Depoimentos** (`#depoimentos`) — 3 depoimentos de pacientes fictícios, com foto
+- **Horários & Localização** (`#localizacao`) — horário de funcionamento, endereço e mapa incorporado (Google Maps embed)
+- **Dúvidas frequentes** (`#faq`) — 5 perguntas em formato acordeão (`<details>/<summary>`, sem JavaScript)
+
 ## 🗂️ Estrutura do projeto
 
 ```
