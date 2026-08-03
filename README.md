@@ -3,7 +3,7 @@
 Landing page estática (HTML + CSS puro, sem frameworks e sem backend) desenvolvida
 para apresentar uma clínica de saúde fictícia e seus principais serviços.
 
-Projeto acadêmico — trabalho de **Desenvolvimento de Soluções para Clínica de Saúde**,
+Projeto acadêmico — trabalho de **Programação e Desenvolvimento Web**,
 Projeto 01 (Landing Page Estática).
 
 ## ✅ Requisitos atendidos
@@ -24,13 +24,6 @@ Projeto 01 (Landing Page Estática).
 - **Horários & Localização** (`#localizacao`) — horário de funcionamento, endereço em Brasília/DF e mapa incorporado (Google Maps embed)
 - **Dúvidas frequentes** (`#faq`) — 5 perguntas em formato acordeão (`<details>/<summary>`, sem JavaScript)
 
-## 📝 Notas de atualização
-
-- O elemento visual do hero foi trocado de uma "ficha de paciente" para um **painel de disponibilidade de horários** (`.avail-card`)
-- Os ícones de "Aconselhamento nutricional" (maçã) e "Outros procedimentos" (escudo com cruz) foram redesenhados
-- O endereço e o mapa da seção de localização apontam para **Brasília — DF** (SGAS 615, Asa Sul)
-- O campo **Cidade** do formulário agora é uma lista de seleção com regiões administrativas do **Distrito Federal**, e o campo **Estado** está fixo em "DF"
-
 ## 🗂️ Estrutura do projeto
 
 ```
@@ -39,40 +32,6 @@ clinica-vitare/
 ├── style.css        # Estilos (paleta, tipografia, layout responsivo)
 └── README.md         # Este arquivo
 ```
-
-## ▶️ Como executar localmente
-
-Não é necessário instalar nada — é uma página 100% estática.
-
-**Opção 1 — abrir direto:**
-Dê duplo clique em `index.html` (ou clique com o botão direito → *Abrir com* → navegador).
-
-**Opção 2 — servidor local (recomendado, evita bloqueios de CORS/fontes):**
-```bash
-# dentro da pasta do projeto
-python3 -m http.server 8080
-# depois acesse http://localhost:8080 no navegador
-```
-ou, com Node.js instalado:
-```bash
-npx serve .
-```
-
-## ☁️ Publicação (GitHub Pages)
-
-1. Crie um repositório no GitHub e envie os arquivos deste projeto:
-   ```bash
-   git init
-   git add .
-   git commit -m "Landing page - Clínica Vitare"
-   git branch -M main
-   git remote add origin https://github.com/<seu-usuario>/<seu-repo>.git
-   git push -u origin main
-   ```
-2. No repositório, vá em **Settings → Pages**.
-3. Em **Source**, selecione a branch `main` e a pasta `/root`.
-4. Salve. Em alguns minutos o link ficará disponível em:
-   `https://<seu-usuario>.github.io/<seu-repo>/`
 
 ## 🛠️ Tecnologias
 
