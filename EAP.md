@@ -40,13 +40,12 @@ no GitHub (repositório + GitHub Pages).
 |---|---|---|
 | **Marco 1** | Semana 3 | EAP e planejamento de implementação (este documento) — escopo, identidade visual e cronograma definidos. |
 | **Marco 2** | Semana 6 | Projeto parcialmente implementado: HTML estruturado, CSS aplicado, seções de serviços e equipe funcionando, formulário estático pronto para testes. |
-| **Marco 3** | Semana 9 | Projeto finalizado, publicado no GitHub/GitHub Pages, com README de instruções e vídeo de apresentação gravado e disponibilizado. |
+| **Marco 3** | Semana 9 | Projeto finalizado, publicado no GitHub/GitHub Pages, com README e vídeo de apresentação gravado e disponibilizado. |
 
-### 4. Critérios de aceite (ligados à avaliação)
+### 4. Critérios de aceite
 
 - [ ] Página funciona sem erros no navegador (console limpo, links e formulário ok)
 - [ ] Repositório publicado no GitHub, com histórico de commits
-- [ ] README com instruções claras de execução
 - [ ] Vídeo de apresentação objetivo, dentro do limite de 5 minutos
 - [ ] (Extra) Publicação online ativa via GitHub Pages
 
@@ -55,5 +54,5 @@ no GitHub (repositório + GitHub Pages).
 | Risco | Mitigação |
 |---|---|
 | Atraso na definição de conteúdo/identidade visual | Conteúdo e paleta definidos já no Marco 1 |
-| Problemas de responsividade | Testes em múltiplos breakpoints no Marco 2 |
+| Problemas de responsividade | Testes feitos no Marco 2 |
 | Falha na publicação do GitHub Pages | Testar publicação com antecedência ao Marco 3, não deixar para a última hora |
