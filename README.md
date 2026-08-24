@@ -14,7 +14,7 @@ Projeto 01 (Landing Page Estática).
 | Mínimo de 2 imagens de serviços | 4 ilustrações SVG na seção `#servicos` |
 | Descrição dos serviços | Seção `#servicos`, um cartão por serviço |
 | Equipe fictícia (mín. 3, com foto e cargo) | Seção `#equipe`, 4 integrantes com foto e cargo |
-| Pelo menos 2 níveis de cabeçalho | `<h1>` no hero, `<h2>` nas seções, `<h3>` nos cards |
+| Pelo menos 2 níveis de cabeçalho | `<h1>` no destaque, `<h2>` nas seções, `<h3>` nos cartões |
 | Formulário estático (Nome, E-mail, Cidade, Estado) | Seção `#contato` e `action="#"`, sem processamento |
 
 ## ✨ Seções extras
