@@ -43,5 +43,5 @@ clinica-vitare/
 
 Os nomes da equipe, fotos (geradas via [pravatar.cc](https://pravatar.cc)) e dados da
 clínica são fictícios, criados exclusivamente para fins acadêmicos. O formulário de
-contato é estático (`action="#"`) e não envia nem armazena nenhum dado, conforme
+contato é estático e não envia nem armazena nenhum dado, conforme
 exigido pelo enunciado.
