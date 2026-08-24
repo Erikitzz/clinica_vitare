@@ -3,7 +3,7 @@
 
 ### 1. Objetivo
 Desenvolver uma página estática (HTML/CSS) apresentando a Clínica Vitare e seus
-principais serviços, cumprindo os requisitos obrigatórios do enunciado, e publicá-la
+principais serviços, cumprindo os requisitos obrigatórios do enunciado, e publicar
 no GitHub (repositório + GitHub Pages).
 
 ### 2. Estrutura Analítica do Projeto (EAP)
@@ -24,13 +24,12 @@ no GitHub (repositório + GitHub Pages).
 │   ├── 3.3 Formulário estático de contato (Nome, E-mail, Cidade, Estado)
 │   └── 3.4 Ajustes de acessibilidade (foco visível, alt em imagens)
 ├── 4. Testes
-│   ├── 4.1 Teste em diferentes tamanhos de tela (desktop/tablet/mobile)
-│   ├── 4.2 Validação de links internos (âncoras do menu)
-│   └── 4.3 Revisão de conteúdo e ortografia
+│   ├── 4.1 Validação de links internos (âncoras do menu)
+│   └── 4.2 Revisão de conteúdo e ortografia   
 └── 5. Publicação e entrega
     ├── 5.1 Criação do repositório no GitHub
     ├── 5.2 Publicação via GitHub Pages
-    ├── 5.3 Gravação do vídeo de apresentação (≤ 5 min)
+    ├── 5.3 Gravação do vídeo de apresentação
     └── 5.4 Elaboração do PDF de entrega (links do GitHub e do vídeo)
 ```
 
@@ -38,14 +37,14 @@ no GitHub (repositório + GitHub Pages).
 
 | Marco | Semana | Entrega |
 |---|---|---|
-| **Marco 1** | Semana 3 | EAP e planejamento de implementação (este documento) — escopo, identidade visual e cronograma definidos. |
+| **Marco 1** | Semana 3 | EAP e planejamento de implementação — escopo, identidade visual e cronograma definidos. |
 | **Marco 2** | Semana 6 | Projeto parcialmente implementado: HTML estruturado, CSS aplicado, seções de serviços e equipe funcionando, formulário estático pronto para testes. |
 | **Marco 3** | Semana 9 | Projeto finalizado, publicado no GitHub/GitHub Pages, com README e vídeo de apresentação gravado e disponibilizado. |
 
 ### 4. Critérios de aceite
 
-- [ ] Página funciona sem erros no navegador (console limpo, links e formulário ok)
-- [ ] Repositório publicado no GitHub, com histórico de commits
+- [ ] Página funciona sem erros no navegador
+- [ ] Repositório publicado no GitHub
 - [ ] Vídeo de apresentação objetivo, dentro do limite de 5 minutos
 - [ ] (Extra) Publicação online ativa via GitHub Pages
 
