@@ -13,10 +13,10 @@
 <body>
 
 <!-- ============ CABEÇALHO / NAV ============ -->
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a href="#topo" class="brand">
-      <span class="brand-mark" aria-hidden="true">
+<header class="cabecalho-site">
+  <div class="conteudo cabecalho-interno">
+    <a href="#topo" class="marca">
+      <span class="marca-simbolo" aria-hidden="true">
         <svg viewBox="0 0 40 40" width="34" height="34">
           <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
           <path d="M20 11 L20 29 M11 20 L29 20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
@@ -24,12 +24,12 @@
       </span>
       Clínica Vitare
     </a>
-    <nav class="main-nav" aria-label="Navegação principal">
+    <nav class="nav-principal" aria-label="Navegação principal">
       <a href="#sobre">Sobre</a>
       <a href="#servicos">Serviços</a>
       <a href="#equipe">Equipe</a>
       <a href="#localizacao">Localização</a>
-      <a href="#faq">Dúvidas</a>
+      <a href="#duvidas">Dúvidas</a>
       <a href="#contato">Agendar</a>
     </nav>
   </div>
@@ -38,77 +38,77 @@
 <main id="topo">
 
   <!-- ============ HERO — PAINEL DE DISPONIBILIDADE ============ -->
-  <section class="hero">
-    <div class="wrap hero-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">Clínica de saúde integrada</p>
+  <section class="destaque">
+    <div class="conteudo destaque-interno">
+      <div class="destaque-texto">
+        <p class="rotulo-superior">Clínica de saúde integrada</p>
         <h1>Um cuidado só,<br>acompanhando cada etapa.</h1>
-        <p class="hero-lede">
+        <p class="destaque-resumo">
           A Vitare reúne consultas, exames, nutrição e cuidados contínuos em um único
-          prontuário para que sua saúde nunca precise recomeçar do zero a cada visita.
+          prontuário — para que sua saúde nunca precise recomeçar do zero a cada visita.
         </p>
-        <div class="hero-actions">
-          <a href="#contato" class="btn btn-primary">Agendar avaliação</a>
-          <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
+        <div class="destaque-acoes">
+          <a href="#contato" class="botao botao-primario">Agendar avaliação</a>
+          <a href="#servicos" class="botao botao-secundario">Ver serviços</a>
         </div>
       </div>
 
       <!-- painel de disponibilidade, elemento assinatura -->
-      <div class="avail-card" aria-hidden="true">
-        <div class="avail-top">
-          <span class="avail-label">Disponibilidade</span>
-          <span class="avail-week">Esta semana</span>
+      <div class="cartao-disponibilidade" aria-hidden="true">
+        <div class="disponibilidade-topo">
+          <span class="disponibilidade-rotulo">Disponibilidade</span>
+          <span class="disponibilidade-semana">Esta semana</span>
         </div>
 
-        <svg class="avail-pulse" viewBox="0 0 280 40" preserveAspectRatio="none">
+        <svg class="disponibilidade-pulso" viewBox="0 0 280 40" preserveAspectRatio="none">
           <path d="M0 22 H70 L84 22 L94 6 L106 36 L116 22 L130 22 H280"
                 fill="none" stroke="currentColor" stroke-width="2.4"
                 stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
 
-        <ul class="avail-list">
+        <ul class="disponibilidade-lista">
           <li>
-            <span class="avail-day">Seg</span>
-            <span class="avail-time">09:40</span>
-            <span class="avail-dot is-open"></span>
-            <span class="avail-status">livre</span>
+            <span class="disponibilidade-dia">Seg</span>
+            <span class="disponibilidade-horario">09:40</span>
+            <span class="disponibilidade-status esta-livre"></span>
+            <span class="disponibilidade-texto-status">livre</span>
           </li>
           <li>
-            <span class="avail-day">Ter</span>
-            <span class="avail-time">14:15</span>
-            <span class="avail-dot is-busy"></span>
-            <span class="avail-status">ocupado</span>
+            <span class="disponibilidade-dia">Ter</span>
+            <span class="disponibilidade-horario">14:15</span>
+            <span class="disponibilidade-status esta-ocupado"></span>
+            <span class="disponibilidade-texto-status">ocupado</span>
           </li>
           <li>
-            <span class="avail-day">Qui</span>
-            <span class="avail-time">11:00</span>
-            <span class="avail-dot is-open"></span>
-            <span class="avail-status">livre</span>
+            <span class="disponibilidade-dia">Qui</span>
+            <span class="disponibilidade-horario">11:00</span>
+            <span class="disponibilidade-status esta-livre"></span>
+            <span class="disponibilidade-texto-status">livre</span>
           </li>
           <li>
-            <span class="avail-day">Sex</span>
-            <span class="avail-time">16:30</span>
-            <span class="avail-dot is-open"></span>
-            <span class="avail-status">livre</span>
+            <span class="disponibilidade-dia">Sex</span>
+            <span class="disponibilidade-horario">16:30</span>
+            <span class="disponibilidade-status esta-livre"></span>
+            <span class="disponibilidade-texto-status">livre</span>
           </li>
         </ul>
 
-        <a href="#contato" class="avail-cta">Reservar um horário →</a>
+        <a href="#contato" class="disponibilidade-botao">Reservar um horário →</a>
       </div>
     </div>
   </section>
 
   <!-- ============ SOBRE NÓS ============ -->
-  <section id="sobre" class="about">
-    <div class="wrap about-inner">
-      <div class="about-copy">
-        <p class="eyebrow">Nossa história</p>
+  <section id="sobre" class="sobre">
+    <div class="conteudo sobre-interno">
+      <div class="sobre-texto">
+        <p class="rotulo-superior">Nossa história</p>
         <h2>Cuidado que começou em um consultório e virou clínica de bairro</h2>
         <p>
           A Vitare nasceu em 2011, quando a Dra. Marina Souza abriu um pequeno
           consultório de clínica geral com um princípio simples: nenhum paciente
           deveria repetir sua história a cada visita. Com o tempo, a equipe cresceu,
-          os serviços se ampliaram como exames, nutrição, procedimentos. Mas o
+          os serviços se ampliaram — exames, nutrição, procedimentos — mas o
           prontuário continuou único, e o atendimento continuou próximo.
         </p>
         <p>
@@ -118,37 +118,37 @@
         </p>
       </div>
 
-      <div class="about-stats" role="list">
-        <div class="stat" role="listitem">
-          <span class="stat-number">13</span>
-          <span class="stat-label">anos de atuação</span>
+      <div class="sobre-estatisticas" role="list">
+        <div class="estatistica" role="listitem">
+          <span class="estatistica-numero">13</span>
+          <span class="estatistica-rotulo">anos de atuação</span>
         </div>
-        <div class="stat" role="listitem">
-          <span class="stat-number">8.400+</span>
-          <span class="stat-label">pacientes atendidos</span>
+        <div class="estatistica" role="listitem">
+          <span class="estatistica-numero">8.400+</span>
+          <span class="estatistica-rotulo">pacientes atendidos</span>
         </div>
-        <div class="stat" role="listitem">
-          <span class="stat-number">4</span>
-          <span class="stat-label">áreas de cuidado</span>
+        <div class="estatistica" role="listitem">
+          <span class="estatistica-numero">4</span>
+          <span class="estatistica-rotulo">áreas de cuidado</span>
         </div>
-        <div class="stat" role="listitem">
-          <span class="stat-number">4,9/5</span>
-          <span class="stat-label">avaliação média</span>
+        <div class="estatistica" role="listitem">
+          <span class="estatistica-numero">4,9/5</span>
+          <span class="estatistica-rotulo">avaliação média</span>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ============ SERVIÇOS ============ -->
-  <section id="servicos" class="services">
-    <div class="wrap">
-      <p class="eyebrow">O que oferecemos</p>
+  <section id="servicos" class="servicos">
+    <div class="conteudo">
+      <p class="rotulo-superior">O que oferecemos</p>
       <h2>Quatro frentes de cuidado, um só lugar</h2>
 
-      <div class="service-grid">
+      <div class="servicos-grade">
 
-        <article class="service-card">
-          <div class="service-art" style="background:#EFE8DA">
+        <article class="servico-cartao">
+          <div class="servico-ilustracao" style="background:#EFE8DA">
             <svg viewBox="0 0 200 140" width="100%" height="100%">
               <rect width="200" height="140" fill="#EFE8DA"/>
               <circle cx="100" cy="55" r="24" fill="none" stroke="#45695C" stroke-width="3"/>
@@ -161,8 +161,8 @@
             unificado e acompanhamento contínuo entre as visitas.</p>
         </article>
 
-        <article class="service-card">
-          <div class="service-art" style="background:#EFE8DA">
+        <article class="servico-cartao">
+          <div class="servico-ilustracao" style="background:#EFE8DA">
             <svg viewBox="0 0 200 140" width="100%" height="100%">
               <rect width="200" height="140" fill="#EFE8DA"/>
               <path d="M85 30h30v22l18 40a10 10 0 01-9 14H76a10 10 0 01-9-14l18-40z" fill="none" stroke="#45695C" stroke-width="3" stroke-linejoin="round"/>
@@ -177,8 +177,8 @@
             credenciados, com resultados integrados ao seu histórico.</p>
         </article>
 
-        <article class="service-card">
-          <div class="service-art" style="background:#EFE8DA">
+        <article class="servico-cartao">
+          <div class="servico-ilustracao" style="background:#EFE8DA">
             <svg viewBox="0 0 200 140" width="100%" height="100%">
               <rect width="200" height="140" fill="#EFE8DA"/>
               <!-- maçã com folha: nutrição -->
@@ -194,8 +194,8 @@
             nutricional alinhada ao restante do seu tratamento.</p>
         </article>
 
-        <article class="service-card">
-          <div class="service-art" style="background:#EFE8DA">
+        <article class="servico-cartao">
+          <div class="servico-ilustracao" style="background:#EFE8DA">
             <svg viewBox="0 0 200 140" width="100%" height="100%">
               <rect width="200" height="140" fill="#EFE8DA"/>
               <!-- escudo com cruz: cuidados gerais / procedimentos -->
@@ -214,78 +214,78 @@
   </section>
 
   <!-- ============ EQUIPE ============ -->
-  <section id="equipe" class="team">
-    <div class="wrap">
-      <p class="eyebrow">Quem cuida de você</p>
+  <section id="equipe" class="equipe">
+    <div class="conteudo">
+      <p class="rotulo-superior">Quem cuida de você</p>
       <h2>Equipe</h2>
 
-      <div class="team-grid">
-        <article class="team-card">
+      <div class="equipe-grade">
+        <article class="equipe-cartao">
           <img src="https://i.pravatar.cc/320?img=47" alt="Retrato de Dra. Marina Souza, clínica geral">
           <h3>Dra. Marina Souza</h3>
-          <p class="role">Clínica Geral</p>
+          <p class="cargo">Clínica Geral</p>
         </article>
 
-        <article class="team-card">
+        <article class="equipe-cartao">
           <img src="https://i.pravatar.cc/320?img=12" alt="Retrato de Dr. Renato Almeida, cardiologista">
           <h3>Dr. Renato Almeida</h3>
-          <p class="role">Cardiologia</p>
+          <p class="cargo">Cardiologia</p>
         </article>
 
-        <article class="team-card">
+        <article class="equipe-cartao">
           <img src="https://i.pravatar.cc/320?img=32" alt="Retrato de Camila Ferreira, nutricionista">
           <h3>Camila Ferreira</h3>
-          <p class="role">Nutrição Clínica</p>
+          <p class="cargo">Nutrição Clínica</p>
         </article>
 
-        <article class="team-card">
+        <article class="equipe-cartao">
           <img src="https://i.pravatar.cc/320?img=51" alt="Retrato de João Pedro Lima, enfermeiro coordenador">
           <h3>João Pedro Lima</h3>
-          <p class="role">Enfermagem — Coordenação</p>
+          <p class="cargo">Enfermagem — Coordenação</p>
         </article>
       </div>
     </div>
   </section>
 
   <!-- ============ DEPOIMENTOS ============ -->
-  <section id="depoimentos" class="testimonials">
-    <div class="wrap">
-      <p class="eyebrow">Quem já passou por aqui</p>
+  <section id="depoimentos" class="depoimentos">
+    <div class="conteudo">
+      <p class="rotulo-superior">Quem já passou por aqui</p>
       <h2>Depoimentos de pacientes</h2>
 
-      <div class="testimonial-grid">
-        <figure class="testimonial-card">
+      <div class="depoimentos-grade">
+        <figure class="depoimento-cartao">
           <blockquote>“Consegui consulta e exame na mesma semana, e o médico já
             tinha visto meu histórico completo antes de eu entrar na sala.”</blockquote>
           <figcaption>
             <img src="https://i.pravatar.cc/120?img=5" alt="" aria-hidden="true">
             <div>
-              <span class="t-name">Helena Ribeiro</span>
-              <span class="t-role">Paciente desde 2019</span>
+              <span class="depoimento-nome">Helena Ribeiro</span>
+              <span class="depoimento-legenda">Paciente desde 2019</span>
             </div>
           </figcaption>
         </figure>
 
-        <figure class="testimonial-card">
+        <figure class="depoimento-cartao">
           <blockquote>“O acompanhamento nutricional mudou minha rotina. Sinto que
             todo mundo na clínica fala a mesma língua sobre o meu caso.”</blockquote>
           <figcaption>
             <img src="https://i.pravatar.cc/120?img=15" alt="" aria-hidden="true">
             <div>
-              <span class="t-name">Otávio Martins</span>
-              <span class="t-role">Paciente desde 2022</span>
+              <span class="depoimento-nome">Otávio Martins</span>
+              <span class="depoimento-legenda">Paciente desde 2022</span>
             </div>
           </figcaption>
         </figure>
 
-        <figure class="testimonial-card">
+        <figure class="depoimento-cartao">
           <blockquote>“Marquei retorno pelo telefone e a recepção já sabia
             exatamente qual exame eu precisava repetir. Isso poupa muito tempo.”</blockquote>
           <figcaption>
             <img src="https://i.pravatar.cc/120?img=25" alt="" aria-hidden="true">
             <div>
-              <span class="t-name">Beatriz Nogueira</span>
-              <span class="t-role">Paciente desde 2016</span>
+              <span class="depoimento-nome">Beatriz Nogueira</span>
+              <span class="depoimento-legenda">Paciente desde 2016</span>
             </div>
           </figcaption>
         </figure>
@@ -294,30 +294,30 @@
   </section>
 
   <!-- ============ HORÁRIOS E LOCALIZAÇÃO ============ -->
-  <section id="localizacao" class="location">
-    <div class="wrap location-inner">
-      <div class="location-info">
-        <p class="eyebrow">Horários & endereço</p>
+  <section id="localizacao" class="localizacao">
+    <div class="conteudo localizacao-interno">
+      <div class="localizacao-info">
+        <p class="rotulo-superior">Horários & endereço</p>
         <h2>Onde e quando estamos</h2>
 
         <h3>Horário de funcionamento</h3>
-        <ul class="hours-list">
-          <li><span>Segunda a sexta</span><span class="dots"></span><span>7h às 19h</span></li>
-          <li><span>Sábado</span><span class="dots"></span><span>8h às 13h</span></li>
-          <li><span>Domingo e feriados</span><span class="dots"></span><span>Fechado</span></li>
+        <ul class="horarios-lista">
+          <li><span>Segunda a sexta</span><span class="pontilhado"></span><span>7h às 19h</span></li>
+          <li><span>Sábado</span><span class="pontilhado"></span><span>8h às 13h</span></li>
+          <li><span>Domingo e feriados</span><span class="pontilhado"></span><span>Fechado</span></li>
         </ul>
 
         <h3>Endereço</h3>
-        <p class="address">
-          SGAS 615, Conjunto A, Lote 30, Asa Sul<br>
-          Brasília/DF, 70200-730
+        <p class="endereco">
+          SGAS 615, Conjunto A, Lote 30 — Asa Sul<br>
+          Brasília — DF, 70200-730
         </p>
-        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=SGAS+615+Conjunto+A+Asa+Sul+Bras%C3%ADlia+DF" target="_blank" rel="noopener">
+        <a class="botao botao-secundario" href="https://www.google.com/maps/search/?api=1&query=SGAS+615+Conjunto+A+Asa+Sul+Bras%C3%ADlia+DF" target="_blank" rel="noopener">
           Abrir no Google Maps
         </a>
       </div>
 
-      <div class="location-map">
+      <div class="localizacao-mapa">
         <iframe
           title="Mapa com a localização da Clínica Vitare"
           src="https://www.google.com/maps?q=SGAS+615+Conjunto+A+Asa+Sul+Bras%C3%ADlia+DF&output=embed"
@@ -329,33 +329,33 @@
   </section>
 
   <!-- ============ FAQ ============ -->
-  <section id="faq" class="faq">
-    <div class="wrap">
-      <p class="eyebrow">Dúvidas frequentes</p>
+  <section id="duvidas" class="duvidas">
+    <div class="conteudo">
+      <p class="rotulo-superior">Dúvidas frequentes</p>
       <h2>Perguntas que recebemos com frequência</h2>
 
-      <div class="faq-list">
-        <details class="faq-item" open>
+      <div class="duvidas-lista">
+        <details class="duvida-item" open>
           <summary>Preciso de encaminhamento para marcar uma consulta?</summary>
           <p>Não. Você pode agendar diretamente com clínica geral ou com qualquer
             especialista disponível, sem necessidade de encaminhamento prévio.</p>
         </details>
-        <details class="faq-item">
+        <details class="duvida-item">
           <summary>A clínica atende convênios ou apenas particular?</summary>
           <p>Trabalhamos com atendimento particular e com os principais convênios da
             região. Confirme a cobertura do seu plano ao agendar.</p>
         </details>
-        <details class="faq-item">
+        <details class="duvida-item">
           <summary>Posso fazer exame e consulta no mesmo dia?</summary>
           <p>Sim, sempre que a agenda permitir. Ao marcar, informe a recepção que
             deseja unificar consulta e exame na mesma visita.</p>
         </details>
-        <details class="faq-item">
+        <details class="duvida-item">
           <summary>Como funciona o acompanhamento nutricional?</summary>
           <p>É feito por consultas periódicas com nutricionista, com plano alimentar
             individual revisado a cada retorno, integrado ao seu prontuário.</p>
         </details>
-        <details class="faq-item">
+        <details class="duvida-item">
           <summary>Como cancelo ou remarco um horário?</summary>
           <p>Basta entrar em contato com a recepção com pelo menos 24h de
             antecedência, pelo telefone ou pelo formulário desta página.</p>
@@ -365,26 +365,26 @@
   </section>
 
   <!-- ============ CONTATO / FORMULÁRIO ESTÁTICO ============ -->
-  <section id="contato" class="contact">
-    <div class="wrap contact-inner">
-      <div class="contact-copy">
-        <p class="eyebrow">Fale com a gente</p>
+  <section id="contato" class="contato">
+    <div class="conteudo contato-interno">
+      <div class="contato-texto">
+        <p class="rotulo-superior">Fale com a gente</p>
         <h2>Solicite um retorno</h2>
         <p>Preencha seus dados e nossa recepção entra em contato para confirmar o
           melhor horário para sua consulta.</p>
       </div>
 
-      <form class="contact-form" action="#" onsubmit="return false;">
-        <div class="field">
+      <form class="formulario-contato" action="#" onsubmit="return false;">
+        <div class="campo">
           <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="Nome completo" required>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
         </div>
-        <div class="field">
+        <div class="campo">
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required>
+          <input type="email" id="email" name="email" placeholder="voce@email.com" required>
         </div>
-        <div class="field-row">
-          <div class="field">
+        <div class="campo-linha">
+          <div class="campo">
             <label for="cidade">Cidade</label>
             <select id="cidade" name="cidade" required>
               <option value="" disabled selected>Selecione sua cidade</option>
@@ -408,23 +408,25 @@
               <option>São Sebastião</option>
             </select>
           </div>
-          <div class="field">
+          <div class="campo">
             <label for="estado">Estado</label>
             <select id="estado" name="estado" required>
               <option value="DF" selected>DF — Distrito Federal</option>
             </select>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-form">Enviar solicitação</button>
+        <button type="submit" class="botao botao-primario botao-formulario">Enviar solicitação</button>
+        <p class="formulario-nota">Formulário estático de demonstração — nenhum dado é enviado ou armazenado.</p>
       </form>
     </div>
   </section>
 
 </main>
 
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <span>© 2026 Clínica Vitare. Projeto acadêmico feito com HTML e CSS.</span>
+<footer class="rodape-site">
+  <div class="conteudo rodape-interno">
+    <span>© 2026 Clínica Vitare. Projeto acadêmico — não é um serviço de saúde real.</span>
+    <span>Feito com HTML &amp; CSS.</span>
   </div>
 </footer>
 
