@@ -1,9 +1,9 @@
-# Clínica Vitare — Landing Page Estática
+# Clínica Vitare (Landing Page Estática)
 
 Landing page estática (HTML + CSS puro, sem frameworks e sem backend) desenvolvida
 para apresentar uma clínica de saúde fictícia e seus principais serviços.
 
-Projeto acadêmico — trabalho de **Programação e Desenvolvimento Web**,
+Projeto acadêmico de **Programação e Desenvolvimento Web**,
 Projeto 01 (Landing Page Estática).
 
 ## ✅ Requisitos atendidos
