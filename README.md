@@ -19,7 +19,7 @@ Projeto 01 (Landing Page Estática).
 
 ## ✨ Seções extras
 
-- **Sobre nós** (`#sobre`) — história fictícia da clínica e estatísticas de atuação
+- **Sobre nós** (`#sobre`) história fictícia da clínica e estatísticas de atuação
 - **Depoimentos** (`#depoimentos`) — 3 depoimentos de pacientes fictícios, com foto
 - **Horários & Localização** (`#localizacao`) — horário de funcionamento, endereço em Brasília/DF e mapa incorporado (Google Maps embed)
 - **Dúvidas frequentes** (`#faq`) — 5 perguntas em formato acordeão (`<details>/<summary>`, sem JavaScript)
