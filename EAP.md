@@ -37,7 +37,7 @@ no GitHub (repositório + GitHub Pages).
 
 | Marco | Semana | Entrega |
 |---|---|---|
-| **Marco 1** | Semana 3 | EAP e planejamento de implementação — escopo, identidade visual e cronograma definidos. |
+| **Marco 1** | Semana 3 | EAP e planejamento de implementação com escopo, identidade visual e cronograma definidos. |
 | **Marco 2** | Semana 6 | Projeto parcialmente implementado: HTML estruturado, CSS aplicado, seções de serviços e equipe funcionando, formulário estático pronto para testes. |
 | **Marco 3** | Semana 9 | Projeto finalizado, publicado no GitHub/GitHub Pages, com README e vídeo de apresentação gravado e disponibilizado. |
 
