@@ -1,5 +1,5 @@
 # EAP — Estrutura Analítica do Projeto
-## Projeto 01 — Landing Page Estática | Clínica Vitare
+## Projeto 01 — Landing Page Estática Clínica Vitare
 
 ### 1. Objetivo
 Desenvolver uma página estática (HTML/CSS) apresentando a Clínica Vitare e seus
