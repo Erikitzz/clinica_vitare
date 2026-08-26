@@ -1,5 +1,5 @@
-# EAP — Estrutura Analítica do Projeto
-## Projeto 01 — Landing Page Estática Clínica Vitare
+# EAP - Estrutura Analítica do Projeto
+## Projeto 01 - Landing Page Estática Clínica Vitare
 
 ### 1. Objetivo
 Desenvolver uma página estática (HTML/CSS) apresentando a Clínica Vitare e seus
@@ -9,7 +9,7 @@ no GitHub (repositório + GitHub Pages).
 ### 2. Estrutura Analítica do Projeto (EAP)
 
 ```
-0. Landing Page — Clínica Vitare
+0. Landing Page - Clínica Vitare
 ├── 1. Planejamento
 │   ├── 1.1 Definição do escopo e requisitos obrigatórios
 │   ├── 1.2 Definição da identidade visual (paleta, tipografia, layout)
