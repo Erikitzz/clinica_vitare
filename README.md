@@ -10,7 +10,7 @@ Projeto 01 (Landing Page Estática).
 
 | Requisito | Onde está |
 |---|---|
-| Título da aba | `<title>Clínica Vitare — Cuidado que acompanha você</title>` |
+| Título da aba | `<title>Clínica Vitare - Cuidado que acompanha você</title>` |
 | Mínimo de 2 imagens de serviços | 4 ilustrações SVG na seção `#servicos` |
 | Descrição dos serviços | Seção `#servicos`, um cartão por serviço |
 | Equipe fictícia (mín. 3, com foto e cargo) | Seção `#equipe`, 4 integrantes com foto e cargo |
